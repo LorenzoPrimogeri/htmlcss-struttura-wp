@@ -2,7 +2,6 @@
     width: 100vw;
     height: 100vh-20px;
     margin-top: 20px;
-
 }
 *{
     box-sizing: border-box;
@@ -30,7 +29,6 @@
     margin: auto;
     margin-bottom: 10px;
 }
-
 .middle{
     margin-top: 83px;
     border: 6px solid black;
