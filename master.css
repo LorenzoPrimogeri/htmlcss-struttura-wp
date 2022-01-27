@@ -35,12 +35,6 @@
     height: 20%;
     border-bottom: 4px solid black;
 }
-.Left{
-    float: left;
-    width: 25%;
-    height: 80%;
-    border-bottom: 4px solid black;
-}
 .Middle{
     border: 4px solid black;
     border-top: none;
@@ -48,7 +42,7 @@
     width: 50%;
     height: 80%;
 }
-.Right{
+.Side{
     float: left;
     width: 25%;
     height: 80%;
@@ -61,7 +55,7 @@
     margin: auto;
     margin-bottom: 10px; 
 }
-.Right::after{
+.Clearfix::after{
      content: "";
      clear: both;
      display: table;
