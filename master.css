@@ -61,3 +61,8 @@
     margin: auto;
     margin-bottom: 10px; 
 }
+.Right::after{
+     content: "";
+     clear: both;
+     display: table;
+}
